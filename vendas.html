@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vendas.html</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>a</h1>
+<div class="vendas">
+    <h1 class="cadastrar_produto">Cadastrar produto: </h1>
+
+    <div class="produto">
+        <label  for="produto">Produto: </label>
+        <input  type="text" placeholder="Produto desejado:">
+        <br>
+    </div>
+    
+<select class="seleçao" name="seleçao" id="selecionar_item">
+    <option value="Categoria">Categoria:</option> 
+    <option value="Camisa">Camisa</option>
+    <option value="Bermuda">Bermuda</option>
+    <option value="Calçado">Calçado</option>
+</select>
+
+<div class="Valor">
+    <label for="Valor">Valor(R$)</label>
+    <input id="Valor" type="text" placeholder="Valor">
+    <br>
+    </div>
+
+    <button id="cadastrar">Cadastrar Produto</button>
+
+    <p><strong>Produtos Cadastrados:</strong></p>
+<table class="tabela" border="1" cellpadding="5">
+  <tr>
+    <th>Código</th>
+    <th>Produto</th>
+    <th>Preço (R$)</th>
+    <th>Quantidade</th>
+  </tr>
+  <tr>
+    <td>001</td>
+    <td>Uniforme Brasil 2026</td>
+    <td>249,99</td>
+    <td>67</td>
+  </tr>
+  <tr>
+    <td>002</td>
+    <td>Mikasa V200W</td>
+    <td>699,99</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>003</td>
+    <td>Blusa esportiva</td>
+    <td>120,00</td>
+    <td>20</td>
+  </tr>
+</table>
+</div>
+
+
 </body>
 </html>

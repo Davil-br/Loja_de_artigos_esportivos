@@ -1,8 +1,8 @@
 body {
     background: linear-gradient(
-        #491568,
-        #d87fee,
-        #f54eaf
+        #9630d1,
+        #11344260,
+        #6addd4
     );
     background-repeat: no-repeat;
     background-attachment: fixed; /* Fixa o gradiente na tela inteira */
@@ -11,8 +11,8 @@ body {
     text-align: center;
 }
 
-h1 {
-    margin-top: 200px;
+.acessar_sistema {
+    margin-top: 210px;
 }
 
 .login {
@@ -27,7 +27,7 @@ h1 {
         background: linear-gradient(
         #ccb0dd,
         #d87fee,
-        #e77fbc
+        #a9dae2
     );
 }
 
@@ -60,5 +60,42 @@ h1 {
     );
 }
 #botao:hover {
-        
+        cursor: pointer;
+}
+
+.vendas {
+    text-align: left;
+    border: 1px;
+    padding: 20px;
+} 
+
+.produto{
+padding: 20px;
+
+}
+
+.seleçao{
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Valor{
+    padding: 20px;
+    
+}
+
+#cadastrar {
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.tabela {
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border-color: black;
 }
